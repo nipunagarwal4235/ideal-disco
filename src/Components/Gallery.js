@@ -13,45 +13,45 @@ const Gallery = () => {
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 object-cover bg-gray-500 aspect-square"
-            src={process.env.PUBLIC_URL+"Assets/gallery6.jpg"}
+            src={"Assets/gallery6.jpg"}
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
-            src={process.env.PUBLIC_URL+"Assets/gallery2.jpg"}
+            src={"Assets/gallery2.jpg"}
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
-            src={process.env.PUBLIC_URL+"Assets/gallery1.jpg"}
+            src={"Assets/gallery1.jpg"}
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
-            src={process.env.PUBLIC_URL+"Assets/gallery3.jpg"}
+            src={"Assets/gallery3.jpg"}
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
-            src={process.env.PUBLIC_URL+"Assets/gallery8.jpg"}
+            src={"Assets/gallery8.jpg"}
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
-            src={process.env.PUBLIC_URL+"Assets/gallery11.jpg"}
+            src={"Assets/gallery11.jpg"}
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
-            src={process.env.PUBLIC_URL+"Assets/gallery10.jpg"}
+            src={"Assets/gallery10.jpg"}
           />
           <img
             alt=""
             className="w-full h-full rounded shadow-sm min-h-48 bg-gray-500 aspect-square"
-            src={process.env.PUBLIC_URL+"Assets/gallery4.jpg"}
+            src={"Assets/gallery4.jpg"}
           />
           <img
-            src={process.env.PUBLIC_URL+"Assets/gallery9.jpg"}
+            src={"Assets/gallery9.jpg"}
             alt=""
             className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 bg-gray-500 aspect-square"
           />
