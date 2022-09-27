@@ -6,18 +6,16 @@ import Stats from "./Components/Stats"
 import Merch from "./Components/Merch";
 import Team from "./Components/Team";
 import Contact from "./Components/Contact";
+import Faculty from "./Components/Faculty";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Hero></Hero>
-      <Events></Events>
+      <Faculty></Faculty>
       <Gallery></Gallery>
-      <Stats></Stats>
-      <Merch></Merch>
-      <Team></Team>
       <Contact></Contact>
+      <Events></Events>
     </>
   );
 }
