@@ -1,23 +1,23 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
+import About from "./Components/About";
 import Events from "./Components/Events";
-import Gallery from "./Components/Gallery";
-import Stats from "./Components/Stats"
+import Stats from "./Components/Stats";
 import Merch from "./Components/Merch";
-import Team from "./Components/Team";
-import Contact from "./Components/Contact";
+import Testimonials from "./Components/Testimonials";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
       <Hero></Hero>
-      <Events></Events>
-      <Gallery></Gallery>
-      <Stats></Stats>
+      <About></About>
       <Merch></Merch>
-      <Team></Team>
-      <Contact></Contact>
+      <Events></Events>
+      <Stats></Stats>
+      <Testimonials></Testimonials>
+      <Footer></Footer>
     </>
   );
 }
