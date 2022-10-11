@@ -4,20 +4,20 @@ import About from "./Components/About";
 import Events from "./Components/Events";
 import Stats from "./Components/Stats";
 import Merch from "./Components/Merch";
-import Testimonials from "./Components/Testimonials";
-import Footer from "./Components/Footer";
+import Team from "./Components/Team";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
       <Hero></Hero>
-      <About></About>
-      <Merch></Merch>
       <Events></Events>
+      <Gallery></Gallery>
       <Stats></Stats>
-      <Testimonials></Testimonials>
-      <Footer></Footer>
+      <Merch></Merch>
+      <Team></Team>
+      <Contact></Contact>
     </>
   );
 }
